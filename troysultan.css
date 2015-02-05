@@ -1,0 +1,108 @@
+h1 {
+  font-size: 119px;
+  color: #F86E0C;
+  text-align: right;
+  margin: 0;
+}
+h2 {
+  font-size: 22px; 
+  font-weight:bold; 
+}
+h3{font-size:22px; margin-left:200px; margin-top:25px; }
+
+#favicon {
+  display:none;
+}
+.clear{clear:both;}
+
+body {
+  text-align: none;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+
+}
+#myWrapper {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left; 
+}
+p {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #3d4c53;
+  text-align: right;
+}
+p a {
+    line-height: 30px;
+    padding: 5px 5px;
+    margin: 5px 5px 0 0;
+    font-family: helvetica, arial, verdana;
+    font-style: normal;
+    font-size:22px;
+    font-weight:bold;
+    text-decoration: none;
+    text-align: center;
+    color: #F86E0C;
+    background:#fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F86E0C;
+    border-width: 3px;
+}
+p a:hover {
+    color: #fff;
+    background:#F86E0C;
+}
+.footer {
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50%;
+}
+.footer ul {
+    float: left;
+    list-style: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F86E0C;
+    border-width: 3px;
+    margin: 0;
+    padding: 0;
+    margin-left: -25%;
+}
+.footer ul li {
+    display: inline-block;
+    border-left: solid #F86E0C 3px;
+    text-align: center;
+    padding: 3px;
+    color: #F86E0C;
+    float: left;
+}
+.footer ul li:hover {
+    color: #fff;
+    background: #F86E0C;    
+}
+.footer ul li:first-child {
+    border-left: none;
+}
+.footer ul li a {
+    display: block;
+    line-height: 20px;
+    padding: 5px 15px;
+    font-family: helvetica, arial, verdana;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+br {
+    line-height: .2em;
+}
