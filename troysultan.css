@@ -77,5 +77,39 @@ a.first:after{
 a.before:hover:before,a.after:hover:after{
   width:100%;
 }
-
+.footer {
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    float: right;
+}
+.footer ul li {
+    display: inline-block;
+    border-left: solid #F86E0C 3px;
+    text-align: center;
+    padding: 3px;
+    color: #F86E0C;
+    float: left;
+}
+.footer ul li:hover {
+    color: #fff;
+    background: #F86E0C;    
+}
+.footer ul li:first-child {
+    border-left: none;
+}
+.footer ul li a {
+    display: block;
+    line-height: 20px;
+    padding: 5px 15px;
+    font-family: helvetica, arial, verdana;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
 
